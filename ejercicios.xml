@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="ejercicios.xsl" type="text/xsl"?>
+
+<web>
+    <anio_2021>
+        <primer_trimestre>
+            <clientes>
+                <cliente id="1">
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres, 15</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido id="1">
+                            <n_pedido>162</n_pedido>
+                            <fecha_compra>15/01/2021</fecha_compra>
+                            <fecha_entrega>20/01/2021</fecha_entrega>
+                            <total_factura>126,45€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG247Q1A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>126,45€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>163</n_pedido>
+                            <fecha_compra>15/01/2021</fecha_compra>
+                            <fecha_entrega>20/01/2021</fecha_entrega>
+                            <total_factura>60€</total_factura>
+                            <producto>
+                                <nombre>Raton EVGA</nombre>
+                                <referencia>015553</referencia>
+                                <precio>20€</precio>
+                                <unidades>3</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>164</n_pedido>
+                            <fecha_compra>17/01/2021</fecha_compra>
+                            <fecha_entrega>25/01/2021</fecha_entrega>
+                            <total_factura>4485€</total_factura>
+                            <producto>
+                                <nombre>Portatil HP 15S</nombre>
+                                <referencia>024161</referencia>
+                                <precio>299€</precio>
+                                <unidades>15</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>165</n_pedido>
+                            <fecha_compra>25/02/2021</fecha_compra>
+                            <fecha_entrega>30/02/2021</fecha_entrega>
+                            <total_factura>843,8€</total_factura>
+                            <producto>
+                                <nombre>Salicru SPS SOHO+</nombre>
+                                <referencia>007234</referencia>
+                                <precio>210,95€</precio>
+                                <unidades>4</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>260</n_pedido>
+                            <fecha_compra>12/02/2021</fecha_compra>
+                            <fecha_entrega>15/02/2021</fecha_entrega>
+                            <total_factura>231,94€</total_factura>
+                            <producto>
+                                <nombre>Corsair Vengeance RGB 2x16GB 6000MHz</nombre>
+                                <referencia>021981</referencia>
+                                <precio>231,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>261</n_pedido>
+                            <fecha_compra>14/02/2021</fecha_compra>
+                            <fecha_entrega>18/02/2021</fecha_entrega>
+                            <total_factura>419,95€</total_factura>
+                            <producto>
+                                <nombre>Intel Core i7-13700K</nombre>
+                                <referencia>021839</referencia>
+                                <precio>419,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>263</n_pedido>
+                            <fecha_compra>21/02/2021</fecha_compra>
+                            <fecha_entrega>22/02/2021</fecha_entrega>
+                            <total_factura>1,299,95€</total_factura>
+                            <producto>
+                                <nombre>PNY GeForce RTX 4080</nombre>
+                                <referencia>022162</referencia>
+                                <precio>1,299,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Elias</nombre>
+                    <apellidos>Kendil</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Jacaranda</calle>
+                        <ciudad>Griñon</ciudad>
+                        <codigoP>28977</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>360</n_pedido>
+                            <fecha_compra>23/02/2021</fecha_compra>
+                            <fecha_entrega>26/02/2021</fecha_entrega>
+                            <total_factura>10,95€</total_factura>
+                            <producto>
+                                <nombre>Sandisk Ultra Flair USB 3,0 64GB - Pendrive</nombre>
+                                <referencia>003032</referencia>
+                                <precio>10,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>361</n_pedido>
+                            <fecha_compra>01/03/2021</fecha_compra>
+                            <fecha_entrega>04/03/2021</fecha_entrega>
+                            <total_factura>10,95€</total_factura>
+                            <producto>
+                                <nombre>Mars Gaming MSCUBE 8W Rosa</nombre>
+                                <referencia>024647</referencia>
+                                <precio>10,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>362</n_pedido>
+                            <fecha_compra>17/03/2021</fecha_compra>
+                            <fecha_entrega>19/03/2021</fecha_entrega>
+                            <total_factura>1,95€</total_factura>
+                            <producto>
+                                <nombre>Micrófono Eminent-Ewent EW3550 Negro</nombre>
+                                <referencia>001643</referencia>
+                                <precio>1,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+            </clientes>
+        </primer_trimestre>
+        <segundo_trimestre>
+            <clientes>
+                <cliente>
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1162</n_pedido>
+                            <fecha_compra>02/04/2021</fecha_compra>
+                            <fecha_entrega>03/04/2021</fecha_entrega>
+                            <total_factura>159,95€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG21A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>159,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1163</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>989,5€</total_factura>
+                            <producto>
+                                <nombre>Samsung SSD 980 Series PCIe 3,0 NVMe 1TB</nombre>
+                                <referencia>013522</referencia>
+                                <precio>98,95€</precio>
+                                <unidades>10</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1164</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>32,975€</total_factura>
+                            <producto>
+                                <nombre>iFixit Manta Driver Kit 112 Bit</nombre>
+                                <referencia>008278</referencia>
+                                <precio>65,95€</precio>
+                                <unidades>5</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1165</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>1973,75€</total_factura>
+                            <producto>
+                                <nombre>Seagate Barracuda Compute 4TB</nombre>
+                                <referencia>005374</referencia>
+                                <precio>78,95€</precio>
+                                <unidades>25</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1265</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>79,6€</total_factura>
+                            <producto>
+                                <nombre>KFA2 Vortex Wind-01</nombre>
+                                <referencia>015525</referencia>
+                                <precio>9,95€</precio>
+                                <unidades>8</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1266</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>58,95€</total_factura>
+                            <producto>
+                                <nombre>Montech X3 Mesh Blanco</nombre>
+                                <referencia>024801</referencia>
+                                <precio>58,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1267</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>34,94€</total_factura>
+                            <producto>
+                                <nombre>Cooler Master SK652</nombre>
+                                <referencia>022421</referencia>
+                                <precio>34,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Gabriel</nombre>
+                    <apellidos>García</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Cielo</calle>
+                        <ciudad>Fuenlabrada</ciudad>
+                        <codigoP>28942</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1361</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>163,96€</total_factura>
+                            <producto>
+                                <nombre>Lian Li PC-O11 Dynamic Blanco</nombre>
+                                <referencia>006801</referencia>
+                                <precio>163,96€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1362</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>214,94€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte B760M AORUS Elite</nombre>
+                                <referencia>024661</referencia>
+                                <precio>214,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1365</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>51,95€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte P650B 80 Plus Bronze 650W</nombre>
+                                <referencia>007092</referencia>
+                                <precio>51,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+            </clientes>
+        </segundo_trimestre>
+        <tercer_trimestre>
+            <clientes>
+                <cliente>
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1162</n_pedido>
+                            <fecha_compra>02/04/2021</fecha_compra>
+                            <fecha_entrega>03/04/2021</fecha_entrega>
+                            <total_factura>159,95€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG21A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>159,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1163</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>989,5€</total_factura>
+                            <producto>
+                                <nombre>Samsung SSD 980 Series PCIe 3,0 NVMe 1TB</nombre>
+                                <referencia>013522</referencia>
+                                <precio>98,95€</precio>
+                                <unidades>10</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1164</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>32,975€</total_factura>
+                            <producto>
+                                <nombre>iFixit Manta Driver Kit 112 Bit</nombre>
+                                <referencia>008278</referencia>
+                                <precio>65,95€</precio>
+                                <unidades>5</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1165</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>1973,75€</total_factura>
+                            <producto>
+                                <nombre>Seagate Barracuda Compute 4TB</nombre>
+                                <referencia>005374</referencia>
+                                <precio>78,95€</precio>
+                                <unidades>25</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1265</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>79,6€</total_factura>
+                            <producto>
+                                <nombre>KFA2 Vortex Wind-01</nombre>
+                                <referencia>015525</referencia>
+                                <precio>9,95€</precio>
+                                <unidades>8</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1266</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>58,95€</total_factura>
+                            <producto>
+                                <nombre>Montech X3 Mesh Blanco</nombre>
+                                <referencia>024801</referencia>
+                                <precio>58,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1267</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>34,94€</total_factura>
+                            <producto>
+                                <nombre>Cooler Master SK652</nombre>
+                                <referencia>022421</referencia>
+                                <precio>34,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Gabriel</nombre>
+                    <apellidos>García</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Cielo</calle>
+                        <ciudad>Fuenlabrada</ciudad>
+                        <codigoP>28942</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1361</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>163,96€</total_factura>
+                            <producto>
+                                <nombre>Lian Li PC-O11 Dynamic Blanco</nombre>
+                                <referencia>006801</referencia>
+                                <precio>163,96€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1362</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>214,94€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte B760M AORUS Elite</nombre>
+                                <referencia>024661</referencia>
+                                <precio>214,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1365</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>51,95€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte P650B 80 Plus Bronze 650W</nombre>
+                                <referencia>007092</referencia>
+                                <precio>51,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+            </clientes>       
+        </tercer_trimestre>
+        <cuarto_trimestre>
+            <clientes>
+                <cliente>
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1162</n_pedido>
+                            <fecha_compra>02/04/2021</fecha_compra>
+                            <fecha_entrega>03/04/2021</fecha_entrega>
+                            <total_factura>159,95€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG21A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>159,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1163</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>989,5€</total_factura>
+                            <producto>
+                                <nombre>Samsung SSD 980 Series PCIe 3,0 NVMe 1TB</nombre>
+                                <referencia>013522</referencia>
+                                <precio>98,95€</precio>
+                                <unidades>10</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1164</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>32,975€</total_factura>
+                            <producto>
+                                <nombre>iFixit Manta Driver Kit 112 Bit</nombre>
+                                <referencia>008278</referencia>
+                                <precio>65,95€</precio>
+                                <unidades>5</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1165</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>1973,75€</total_factura>
+                            <producto>
+                                <nombre>Seagate Barracuda Compute 4TB</nombre>
+                                <referencia>005374</referencia>
+                                <precio>78,95€</precio>
+                                <unidades>25</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1265</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>79,6€</total_factura>
+                            <producto>
+                                <nombre>KFA2 Vortex Wind-01</nombre>
+                                <referencia>015525</referencia>
+                                <precio>9,95€</precio>
+                                <unidades>8</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1266</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>58,95€</total_factura>
+                            <producto>
+                                <nombre>Montech X3 Mesh Blanco</nombre>
+                                <referencia>024801</referencia>
+                                <precio>58,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1267</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>34,94€</total_factura>
+                            <producto>
+                                <nombre>Cooler Master SK652</nombre>
+                                <referencia>022421</referencia>
+                                <precio>34,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Gabriel</nombre>
+                    <apellidos>García</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Cielo</calle>
+                        <ciudad>Fuenlabrada</ciudad>
+                        <codigoP>28942</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>1361</n_pedido>
+                            <fecha_compra>26/04/2021</fecha_compra>
+                            <fecha_entrega>30/04/2021</fecha_entrega>
+                            <total_factura>163,96€</total_factura>
+                            <producto>
+                                <nombre>Lian Li PC-O11 Dynamic Blanco</nombre>
+                                <referencia>006801</referencia>
+                                <precio>163,96€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1362</n_pedido>
+                            <fecha_compra>12/05/2021</fecha_compra>
+                            <fecha_entrega>16/05/2021</fecha_entrega>
+                            <total_factura>214,94€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte B760M AORUS Elite</nombre>
+                                <referencia>024661</referencia>
+                                <precio>214,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>1365</n_pedido>
+                            <fecha_compra>12/06/2021</fecha_compra>
+                            <fecha_entrega>22/06/2021</fecha_entrega>
+                            <total_factura>51,95€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte P650B 80 Plus Bronze 650W</nombre>
+                                <referencia>007092</referencia>
+                                <precio>51,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+            </clientes>
+        </cuarto_trimestre>
+    </anio_2021>
+    <anio_2022>
+        <primer_trimestre>
+            <clientes>
+                <cliente>
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>2162</n_pedido>
+                            <fecha_compra>15/01/2022</fecha_compra>
+                            <fecha_entrega>20/01/2022</fecha_entrega>
+                            <total_factura>126,45€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG247Q1A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>126,45€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>2163</n_pedido>
+                            <fecha_compra>15/01/2022</fecha_compra>
+                            <fecha_entrega>20/01/2022</fecha_entrega>
+                            <total_factura>60€</total_factura>
+                            <producto>
+                                <nombre>Raton EVGA</nombre>
+                                <referencia>015553</referencia>
+                                <precio>20€</precio>
+                                <unidades>3</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>2164</n_pedido>
+                            <fecha_compra>17/01/2022</fecha_compra>
+                            <fecha_entrega>25/01/2022</fecha_entrega>
+                            <total_factura>4485€</total_factura>
+                            <producto>
+                                <nombre>Portatil HP 15S</nombre>
+                                <referencia>024161</referencia>
+                                <precio>299€</precio>
+                                <unidades>15</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>2165</n_pedido>
+                            <fecha_compra>25/02/2022</fecha_compra>
+                            <fecha_entrega>30/02/2022</fecha_entrega>
+                            <total_factura>843,8€</total_factura>
+                            <producto>
+                                <nombre>Salicru SPS SOHO+</nombre>
+                                <referencia>007234</referencia>
+                                <precio>210,95€</precio>
+                                <unidades>4</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>2260</n_pedido>
+                            <fecha_compra>12/02/2022</fecha_compra>
+                            <fecha_entrega>15/02/2022</fecha_entrega>
+                            <total_factura>231,94€</total_factura>
+                            <producto>
+                                <nombre>Corsair Vengeance RGB 2x16GB 6000MHz</nombre>
+                                <referencia>021981</referencia>
+                                <precio>231,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>2261</n_pedido>
+                            <fecha_compra>14/02/2022</fecha_compra>
+                            <fecha_entrega>18/02/2022</fecha_entrega>
+                            <total_factura>419,95€</total_factura>
+                            <producto>
+                                <nombre>Intel Core i7-13700K</nombre>
+                                <referencia>021839</referencia>
+                                <precio>419,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>2263</n_pedido>
+                            <fecha_compra>21/02/2022</fecha_compra>
+                            <fecha_entrega>22/02/2022</fecha_entrega>
+                            <total_factura>1,299,95€</total_factura>
+                            <producto>
+                                <nombre>PNY GeForce RTX 4080</nombre>
+                                <referencia>022162</referencia>
+                                <precio>1,299,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Elias</nombre>
+                    <apellidos>Kendil</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Jacaranda</calle>
+                        <ciudad>Griñon</ciudad>
+                        <codigoP>28977</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>2360</n_pedido>
+                            <fecha_compra>23/02/2022</fecha_compra>
+                            <fecha_entrega>26/02/2022</fecha_entrega>
+                            <total_factura>10,95€</total_factura>
+                            <producto>
+                                <nombre>Sandisk Ultra Flair USB 3,0 64GB - Pendrive</nombre>
+                                <referencia>003032</referencia>
+                                <precio>10,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>2361</n_pedido>
+                            <fecha_compra>01/03/2022</fecha_compra>
+                            <fecha_entrega>04/03/2022</fecha_entrega>
+                            <total_factura>10,95€</total_factura>
+                            <producto>
+                                <nombre>Mars Gaming MSCUBE 8W Rosa</nombre>
+                                <referencia>024647</referencia>
+                                <precio>10,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>2362</n_pedido>
+                            <fecha_compra>17/03/2022</fecha_compra>
+                            <fecha_entrega>19/03/2022</fecha_entrega>
+                            <total_factura>1,95€</total_factura>
+                            <producto>
+                                <nombre>Micrófono Eminent-Ewent EW3550 Negro</nombre>
+                                <referencia>001643</referencia>
+                                <precio>1,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+            </clientes>
+        </primer_trimestre>
+        <segundo_trimestre>
+            <clientes>
+                <cliente>
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21162</n_pedido>
+                            <fecha_compra>02/04/2022</fecha_compra>
+                            <fecha_entrega>03/04/2022</fecha_entrega>
+                            <total_factura>159,95€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG21A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>159,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21163</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>989,5€</total_factura>
+                            <producto>
+                                <nombre>Samsung SSD 980 Series PCIe 3,0 NVMe 1TB</nombre>
+                                <referencia>013522</referencia>
+                                <precio>98,95€</precio>
+                                <unidades>10</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21164</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>32,975€</total_factura>
+                            <producto>
+                                <nombre>iFixit Manta Driver Kit 112 Bit</nombre>
+                                <referencia>008278</referencia>
+                                <precio>65,95€</precio>
+                                <unidades>5</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21165</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>1973,75€</total_factura>
+                            <producto>
+                                <nombre>Seagate Barracuda Compute 4TB</nombre>
+                                <referencia>005374</referencia>
+                                <precio>78,95€</precio>
+                                <unidades>25</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21265</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>79,6€</total_factura>
+                            <producto>
+                                <nombre>KFA2 Vortex Wind-01</nombre>
+                                <referencia>015525</referencia>
+                                <precio>9,95€</precio>
+                                <unidades>8</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21266</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>58,95€</total_factura>
+                            <producto>
+                                <nombre>Montech X3 Mesh Blanco</nombre>
+                                <referencia>024801</referencia>
+                                <precio>58,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21267</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>34,94€</total_factura>
+                            <producto>
+                                <nombre>Cooler Master SK652</nombre>
+                                <referencia>022421</referencia>
+                                <precio>34,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Gabriel</nombre>
+                    <apellidos>García</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Cielo</calle>
+                        <ciudad>Fuenlabrada</ciudad>
+                        <codigoP>28942</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21361</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>163,96€</total_factura>
+                            <producto>
+                                <nombre>Lian Li PC-O11 Dynamic Blanco</nombre>
+                                <referencia>006801</referencia>
+                                <precio>163,96€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21362</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>214,94€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte B760M AORUS Elite</nombre>
+                                <referencia>024661</referencia>
+                                <precio>214,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21365</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>51,95€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte P650B 80 Plus Bronze 650W</nombre>
+                                <referencia>007092</referencia>
+                                <precio>51,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>                
+            </clientes>
+        </segundo_trimestre>
+        <tercer_trimestre>
+            <clientes>
+                <cliente>
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21162</n_pedido>
+                            <fecha_compra>02/04/2022</fecha_compra>
+                            <fecha_entrega>03/04/2022</fecha_entrega>
+                            <total_factura>159,95€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG21A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>159,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21163</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>989,5€</total_factura>
+                            <producto>
+                                <nombre>Samsung SSD 980 Series PCIe 3,0 NVMe 1TB</nombre>
+                                <referencia>013522</referencia>
+                                <precio>98,95€</precio>
+                                <unidades>10</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21164</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>32,975€</total_factura>
+                            <producto>
+                                <nombre>iFixit Manta Driver Kit 112 Bit</nombre>
+                                <referencia>008278</referencia>
+                                <precio>65,95€</precio>
+                                <unidades>5</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21165</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>1973,75€</total_factura>
+                            <producto>
+                                <nombre>Seagate Barracuda Compute 4TB</nombre>
+                                <referencia>005374</referencia>
+                                <precio>78,95€</precio>
+                                <unidades>25</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21265</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>79,6€</total_factura>
+                            <producto>
+                                <nombre>KFA2 Vortex Wind-01</nombre>
+                                <referencia>015525</referencia>
+                                <precio>9,95€</precio>
+                                <unidades>8</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21266</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>58,95€</total_factura>
+                            <producto>
+                                <nombre>Montech X3 Mesh Blanco</nombre>
+                                <referencia>024801</referencia>
+                                <precio>58,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21267</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>34,94€</total_factura>
+                            <producto>
+                                <nombre>Cooler Master SK652</nombre>
+                                <referencia>022421</referencia>
+                                <precio>34,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Gabriel</nombre>
+                    <apellidos>García</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Cielo</calle>
+                        <ciudad>Fuenlabrada</ciudad>
+                        <codigoP>28942</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21361</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>163,96€</total_factura>
+                            <producto>
+                                <nombre>Lian Li PC-O11 Dynamic Blanco</nombre>
+                                <referencia>006801</referencia>
+                                <precio>163,96€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21362</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>214,94€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte B760M AORUS Elite</nombre>
+                                <referencia>024661</referencia>
+                                <precio>214,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21365</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>51,95€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte P650B 80 Plus Bronze 650W</nombre>
+                                <referencia>007092</referencia>
+                                <precio>51,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>                
+            </clientes>
+        </tercer_trimestre>
+        <cuarto_trimestre>
+            <clientes>
+                <cliente>
+                    <nombre>Mario</nombre>
+                    <apellidos>López Llamas</apellidos>
+                    <telefono>616555777</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21162</n_pedido>
+                            <fecha_compra>02/04/2022</fecha_compra>
+                            <fecha_entrega>03/04/2022</fecha_entrega>
+                            <total_factura>159,95€</total_factura>
+                            <producto>
+                                <nombre>Monitor Asus VG21A</nombre>
+                                <referencia>016561</referencia>
+                                <precio>159,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21163</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>989,5€</total_factura>
+                            <producto>
+                                <nombre>Samsung SSD 980 Series PCIe 3,0 NVMe 1TB</nombre>
+                                <referencia>013522</referencia>
+                                <precio>98,95€</precio>
+                                <unidades>10</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21164</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>32,975€</total_factura>
+                            <producto>
+                                <nombre>iFixit Manta Driver Kit 112 Bit</nombre>
+                                <referencia>008278</referencia>
+                                <precio>65,95€</precio>
+                                <unidades>5</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21165</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>1973,75€</total_factura>
+                            <producto>
+                                <nombre>Seagate Barracuda Compute 4TB</nombre>
+                                <referencia>005374</referencia>
+                                <precio>78,95€</precio>
+                                <unidades>25</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Jose</nombre>
+                    <apellidos>Llera Hernández</apellidos>
+                    <telefono>677538064</telefono>
+                    <direccion>
+                        <calle>Calle las cumbres</calle>
+                        <ciudad>Cubas de la Sagra</ciudad>
+                        <codigoP>28978</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21265</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>79,6€</total_factura>
+                            <producto>
+                                <nombre>KFA2 Vortex Wind-01</nombre>
+                                <referencia>015525</referencia>
+                                <precio>9,95€</precio>
+                                <unidades>8</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21266</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>58,95€</total_factura>
+                            <producto>
+                                <nombre>Montech X3 Mesh Blanco</nombre>
+                                <referencia>024801</referencia>
+                                <precio>58,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21267</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>34,94€</total_factura>
+                            <producto>
+                                <nombre>Cooler Master SK652</nombre>
+                                <referencia>022421</referencia>
+                                <precio>34,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>
+                <cliente>
+                    <nombre>Gabriel</nombre>
+                    <apellidos>García</apellidos>
+                    <telefono>645972316</telefono>
+                    <direccion>
+                        <calle>Calle Cielo</calle>
+                        <ciudad>Fuenlabrada</ciudad>
+                        <codigoP>28942</codigoP>
+                        <provincia>Comunidad de Madrid</provincia>
+                    </direccion>
+                    <pedidos>
+                        <pedido>
+                            <n_pedido>21361</n_pedido>
+                            <fecha_compra>26/04/2022</fecha_compra>
+                            <fecha_entrega>30/04/2022</fecha_entrega>
+                            <total_factura>163,96€</total_factura>
+                            <producto>
+                                <nombre>Lian Li PC-O11 Dynamic Blanco</nombre>
+                                <referencia>006801</referencia>
+                                <precio>163,96€</precio>
+                                <unidades>1</unidades>
+                            </producto>                        
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21362</n_pedido>
+                            <fecha_compra>12/05/2022</fecha_compra>
+                            <fecha_entrega>16/05/2022</fecha_entrega>
+                            <total_factura>214,94€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte B760M AORUS Elite</nombre>
+                                <referencia>024661</referencia>
+                                <precio>214,94€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                        <pedido>
+                            <n_pedido>21365</n_pedido>
+                            <fecha_compra>12/06/2022</fecha_compra>
+                            <fecha_entrega>22/06/2022</fecha_entrega>
+                            <total_factura>51,95€</total_factura>
+                            <producto>
+                                <nombre>Gigabyte P650B 80 Plus Bronze 650W</nombre>
+                                <referencia>007092</referencia>
+                                <precio>51,95€</precio>
+                                <unidades>1</unidades>
+                            </producto>
+                        </pedido>
+                    </pedidos>
+                </cliente>                
+            </clientes>
+        </cuarto_trimestre>
+    </anio_2022>
+</web>
